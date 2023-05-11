@@ -20,7 +20,7 @@ namespace Kaffemaskinen.Class
             this.coffeeBeans = coffeeBeans;
         }
 
-        public void BrewCoffee()
+        public void Brew()
         {
             waterContainer.AddWater(2); // Add 2 cups of water
             filter.Insert(); // Insert the filter

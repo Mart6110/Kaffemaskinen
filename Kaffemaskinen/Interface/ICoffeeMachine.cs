@@ -8,6 +8,6 @@ namespace Kaffemaskinen.Interface
 {
     public interface ICoffeeMachine
     {
-        void BrewCoffee();
+        void Brew();
     }
 }

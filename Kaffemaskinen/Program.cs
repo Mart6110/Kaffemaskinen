@@ -16,7 +16,7 @@ namespace Kaffemaskinen
             // Create the coffee machine with the dependencies
             ICoffeeMachine coffeeMachine = new CoffeeMachine(waterContainer, filter, coffeeBeans);
 
-            coffeeMachine.BrewCoffee();
+            coffeeMachine.Brew();
         }
     }
 }
