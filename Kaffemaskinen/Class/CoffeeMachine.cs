@@ -22,9 +22,9 @@ namespace Kaffemaskinen.Class
 
         public void BrewCoffee()
         {
-            waterContainer.AddWater(2);
-            filter.Insert();
-            coffeeBeans.AddBeans();
+            waterContainer.AddWater(2); // Add 2 cups of water
+            filter.Insert(); // Insert the filter
+            coffeeBeans.AddBeans(); // Add coffee beans
 
             Console.WriteLine("Brewing coffee...");
             Console.WriteLine("Coffee is ready!");
