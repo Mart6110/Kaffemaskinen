@@ -9,5 +9,6 @@ namespace Kaffemaskinen.Interface
     public interface IFilter
     {
         void Insert();
+        void Remove();
     }
 }

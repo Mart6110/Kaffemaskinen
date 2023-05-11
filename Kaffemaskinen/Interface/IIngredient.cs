@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Kaffemaskinen.Interface
 {
-    public interface ICoffeeBeans
+    public interface IIngredient
     {
         void AddBeans();
+        void AddTealeaf();
     }
 }

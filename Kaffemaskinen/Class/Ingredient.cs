@@ -7,11 +7,15 @@ using System.Threading.Tasks;
 
 namespace Kaffemaskinen.Class
 {
-    public class CoffeeBeans : ICoffeeBeans
+    public class Ingredient : IIngredient
     {
         public void AddBeans()
         {
             Console.WriteLine("Coffee beans added.");
+        }
+        public void AddTealeaf()
+        {
+            Console.WriteLine("Tealeaf added.");
         }
     }
 }

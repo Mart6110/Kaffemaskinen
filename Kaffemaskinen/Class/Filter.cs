@@ -13,5 +13,10 @@ namespace Kaffemaskinen.Class
         {
             Console.WriteLine("Filter inserted.");
         }
+
+        public void Remove()
+        {
+            Console.WriteLine("Filter removed");
+        }
     }
 }
