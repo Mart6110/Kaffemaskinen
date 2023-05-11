@@ -9,11 +9,9 @@ namespace Kaffemaskinen.Class
 {
     public class WaterContainer : IWaterContainer
     {
-        private int waterLevel;
-
         public void AddWater(int cups)
         {
-            waterLevel += cups;
+            // Method to add water to the container
             Console.WriteLine($"Added {cups} cups of water.");
         }
     }

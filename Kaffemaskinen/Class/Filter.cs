@@ -11,12 +11,14 @@ namespace Kaffemaskinen.Class
     {
         public void Insert()
         {
+            // Method to insert a filter
             Console.WriteLine("Filter inserted.");
         }
 
         public void Remove()
         {
-            Console.WriteLine("Filter removed");
+            // Method to remove a filter
+            Console.WriteLine("Filter removed.");
         }
     }
 }

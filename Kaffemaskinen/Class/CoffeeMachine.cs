@@ -24,7 +24,7 @@ namespace Kaffemaskinen.Class
         {
             waterContainer.AddWater(2); // Add 2 cups of water
             filter.Insert(); // Insert the filter
-            ingredient.AddBeans(); // Add coffee beans
+            ingredient.AddBeans(4); // Add coffee beans
 
             Console.WriteLine("Brewing coffee...");
             Console.WriteLine("Coffee is ready!");
@@ -35,12 +35,25 @@ namespace Kaffemaskinen.Class
 
             waterContainer.AddWater(6); // Add 6 cups of water
             filter.Insert(); // Insert the filter
-            ingredient.AddTealeaf(); // add tealeaf
+            ingredient.AddTealeaf(4); // add tealeaf
 
             Console.WriteLine("Brewing tea...");
             Console.WriteLine("Tea is ready!");
 
             filter.Remove(); // Remove the filter
+
+            Console.WriteLine();
+
+            waterContainer.AddWater(1); // Add 1 cups of water
+            filter.Insert(); // Insert the filter
+            ingredient.AddEspressoBeans(4); // Add espresso beans
+
+            Console.WriteLine("Brewing espresso...");
+            Console.WriteLine("ekspresso is ready!");
+
+            filter.Remove(); // Remove the filter
+
+            Console.WriteLine();
 
         }
     }

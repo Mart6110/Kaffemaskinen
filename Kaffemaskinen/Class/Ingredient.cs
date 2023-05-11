@@ -9,13 +9,22 @@ namespace Kaffemaskinen.Class
 {
     public class Ingredient : IIngredient
     {
-        public void AddBeans()
+        public void AddBeans(int spoon)
         {
-            Console.WriteLine("Coffee beans added.");
+            // Method to add coffee beans
+            Console.WriteLine($"Added {spoon} spoons of coffee.");
         }
-        public void AddTealeaf()
+
+        public void AddTealeaf(int spoon)
         {
-            Console.WriteLine("Tealeaf added.");
+            // Method to add tea leaves
+            Console.WriteLine($"Added {spoon} spoons of tea leaves.");
+        }
+
+        public void AddEspressoBeans(int spoon)
+        {
+            // Method to add espresso beans
+            Console.WriteLine($"Added {spoon} spoons of espresso.");
         }
     }
 }

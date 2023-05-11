@@ -8,7 +8,8 @@ namespace Kaffemaskinen.Interface
 {
     public interface IIngredient
     {
-        void AddBeans();
-        void AddTealeaf();
+        void AddBeans(int spoon);
+        void AddTealeaf(int spoon);
+        void AddEspressoBeans(int spoon);
     }
 }
